@@ -178,20 +178,27 @@ header{
   float: left;
 }
 .services-box{
+
   padding-top: 4em;
 }
 .services-text{
+
   font-size: 1.8vh;
   //border: 1px solid blue;
-  //float: left;
+
   height: 50%;
 }
 .services-icon-box{
+
   float: left;
   height: 50%;
   width: 20%;
-  padding: 0 1em 0 2em;
-  //border: 1px solid blue;
+  padding: 0 1em 0 1em;
+//  border: 1px solid blue;
+
+}
+.fa{
+  font-size: 3vm;
 }
 
 .quote{
