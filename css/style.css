@@ -55,9 +55,9 @@ header{
   float: right;
 }
 .header-box-icon{
-  width: 60px;
+  width: 40px;
   height:60px;
-  padding-left: 20px;
+  padding-left: 5px;
   padding-top: 25px;
   float: left;
   //border: 1px solid blue;
@@ -103,7 +103,7 @@ header{
 
 .section-bottom-clear{
   width: 70%;
-  height: 140px;
+  height:22vh;
 }
 
 .section-bottom-box{
@@ -157,7 +157,8 @@ header{
 
 
 .section-bottom{
-  height: 250px;
+  height: 31vh;
+  margin-top: 5vh;
   background-color: #44548e;
 }
 
@@ -210,12 +211,12 @@ header{
 
 }
 .request-box{
-  width: 800px;
-  height: 500px;
+  width: 60vw;
+  height: auto;;
   margin: auto;
   //border: 1px solid blue;
   background-color: white;
-  padding: 2em 2em 2em 2em;
+  padding: 1em 1em 1em 1em;
 
 }
 .request-box input{
@@ -235,8 +236,10 @@ header{
 }
 .request-box button{
   margin-top: 1em;
-  width: 50%;
+  //margin-left: 1em;
+  width: 43%;
   height: 42px;
+  margin: auto;
   background-color: #44548e;
   border: none;
   color: white;
