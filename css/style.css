@@ -103,36 +103,39 @@ header{
 
 .section-bottom-clear{
   width: 70%;
-  height: 120px;
+  height: 140px;
 }
 
 .section-bottom-box{
-  width: 70%;
-  height: 150px;
+  width: 70vw;
+  height: auto;
 
   margin: auto;
   background-color: white;
   border-radius: 10px;
-  padding: 2em 0 0 3em;
+  padding: 1em 0 0 2em;
+  font-size: 2vw
 }
 .section-bottom-box input{
-  width: 90%;
-  height: 2.5em;
+  width: 95%;
+  height: 8vh;
   margin-right: 20px;
   margin-bottom: 5px;
   background-color: #697c9b;
   border: none;
   padding-left: 5px;
+  font-size: 2vh;
 }
 .section-bottom-box button {
-  width: 90%;
-  height: 2.5em;
+  width: 95%;
+  height: 8vh;
   margin-right: 20px;
   margin-bottom: 5px;
   background-color: #4d5866;
   border: none;
   outline: none;
   color: white;
+  font-size: 2vh;
 }
 .spacer{
   width: 100%;
