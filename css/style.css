@@ -8,18 +8,25 @@
 
 
 body{
-  font-family: "Roboto";
+  font-family: Roboto,'Helvetica Neue',Arial,sans-serif;
   color:#090127;
 }
 
+
+
 .bg-clr{
   background-color: #4d5866;
-
+  padding-right: 35px;
   color: white;
+}
+@media (max-width: 47.9em) {
+.bg-clr{
+  display: none;
+}
 }
 
 .icons{
-  margin-left: 26px;
+  margin-left: 20px;
 }
 header{
   height: 100px;
@@ -92,7 +99,19 @@ header{
 
 .title-box{
   padding-top: 15vh;
-
+}
+@media (max-width: 47.9em) {
+.title-box{
+  text-align: center;
+  padding-top: 5vh;
+}
+.title-box h1{
+  font-size: 4vh;
+}
+.section-box{
+  margin: auto;
+  margin-bottom: 15px;
+}
 }
 .title-text{
   color: silver;
@@ -104,23 +123,29 @@ header{
 }
 .section-box{
   width: 175px;
-  height: 50px;
+  height: 45px;
   background-color: white;
 }
 
 .section-bottom-clear{
   width: 70%;
-  height:22vh;
+  height:20vh;
+}
+@media (max-width: 47.9em) {
+.section-bottom-clear{
+  display: none;
+}
 }
 
 .section-bottom-box{
   width: 70vw;
   height: auto;
   margin: auto;
+  margin-top: 2vh;
   background-color: white;
   border-radius: 10px;
   padding: 1em 0 0 2em;
-  font-size: 2vw
+  font-size: 2vw;
 }
 .section-bottom-box input{
   width: 95%;
@@ -141,7 +166,15 @@ header{
   border: none;
   outline: none;
   color: silver;
+  font-size: 1vw;
+}
+@media (max-width: 47.9em) {
+.section-bottom-box button{
   font-size: 2vh;
+}
+.section-bottom-box h5{
+  display: none;
+}
 }
 .spacer{
   width: 100%;
@@ -154,17 +187,52 @@ header{
 #about p{
   font-size: 1.8vw;
 }
+@media (max-width: 47.9em) {
+#about h1{
+  font-size: 4vh;
+}
+#about p{
+  font-size: 3vh;
+}
+}
 .simg{
   position: absolute;
   max-width: 100%;
   height: auto;
   z-index: 1;
 }
-.section-bottom{
-  height: 31vh;
+.about-bottom{
+  height: auto;
+  min-height: 270px;
   margin-top: 5vh;
   background-color: #44548e;
 }
+.about-bottom-box{
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: auto;
+  padding:6em 2em 1em 0;
+  font-size: .8em;
+  //border: 1px solid red;
+  color: #fff;
+}
+@media (max-width: 47.9em) {
+.about-bottom-box{
+  text-align: center;
+}
+}
+#circle {
+	width: 30px;
+	height: 30px;
+  margin: auto;
+  margin-top: 15px;
+	background: silver;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 15px;
+}
+
 
 
 #services{
@@ -275,8 +343,13 @@ header{
   top:0;
   width: 120%;
 
-
 }
+@media (max-width: 47.9em) {
+#news img{
+  width: 95%;
+}
+}
+
 .news-box{
   width: 95%;
   height: auto;
@@ -291,7 +364,7 @@ header{
 footer{
   height: auto;
   background-image:
-        linear-gradient(rgba(255, 255, 255, 0.6), rgba(22, 22, 238, 0.8)),
+        linear-gradient(rgba(2, 2, 99, 0.6), rgba(7, 7, 7, 0.8)),
         url("../images/weidgetbg.jpg");
 }
 .footer-box{
@@ -303,7 +376,7 @@ footer{
 }
 
 .footer-text{
-  padding: 20em 1em 2em 2em;
+  padding: 20em 3em 2em 3em;
   color: #fff;
   height: auto;
 }
@@ -319,7 +392,7 @@ footer{
   border-radius: 50%;
   background-color: silver;
   color: black;
-  padding: 3px 0 0 5px;
+  padding: 3px 0 0 2px;
 
 }
 .icon-box{
