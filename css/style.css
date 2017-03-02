@@ -33,13 +33,28 @@ header{
   float: right;
   width:100%;
 }
-.bg-clr-lgt{
+.bg-clr-lgt {
   background-color: #697c9b;
   color: white;
 }
-.menu-item{
-  margin-right: 4vw;
+.nav-item:hover,
+.nav-item:focus{
+  background-color: #4d5866;
 }
+
+.menu-item{
+  margin-right: 2vw;
+  margin-left: 2vw;
+  color: #fff;
+}
+.menu-item:hover,
+.menu-item:focus{
+  //font-size: 1.4vw;
+  //border: 1px solid #fff;
+  color: #fff;
+  text-decoration:none;
+}
+
 .header-box{
   width: 30%;
   height: 100px;
@@ -210,6 +225,7 @@ header{
   border: none;
   color: white;
   font-weight: bold;
+  font-size: 2vw;
 }
 .request-strip{
   background-color: #4d5866;
@@ -228,7 +244,7 @@ header{
   background-color: #4d5866;
   opacity: .8;
   text-align: center;
-  color: silver;
+  color: #fff;
   font-weight: bold;
   padding-top: 4em;
 }
