@@ -35,12 +35,18 @@ header{
 }
 .bg-clr-lgt {
   background-color: #697c9b;
+  position: sticky;
   color: white;
 }
-.nav-item:hover,
-.nav-item:focus{
-  background-color: #4d5866;
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
 }
+
 
 .menu-item{
   margin-right: 2vw;
@@ -53,6 +59,8 @@ header{
   //border: 1px solid #fff;
   color: #fff;
   text-decoration:none;
+  padding-bottom: 15px;
+  border-bottom: 2px solid white;
 }
 
 .header-box{
