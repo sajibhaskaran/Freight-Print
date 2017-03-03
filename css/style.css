@@ -252,8 +252,8 @@ header{
   height: auto;
   float: left;
   margin: auto;
-  padding:6em 2em 1em 0;
-  font-size: .8em;
+  padding:3em 0 1em 0;
+  font-size: 13px;
   //border: 1px solid red;
   color: #fff;
 }
@@ -411,14 +411,17 @@ footer{
   //background-color: black;
   //opacity: .5;
   height: auto;
+  padding: 1em;
   margin-top: 0vh;
+//  border: 1px solid red;
 
 }
 
 .footer-text{
-  padding: 20em 3em 2em 3em;
+  padding: 10em 1em 2em 1em;
   color: #fff;
   height: auto;
+  //border: 1px solid red;
 }
 .footer-text h1{
   text-align: center;
@@ -436,11 +439,7 @@ footer{
 
 }
 .icon-box{
-  width: 60%;
-  margin: auto;
-  padding-top: 20px;
-  align-items: center;
-  text-align: center;
+
 }
 footer input, button{
   height: 35px;
@@ -455,3 +454,30 @@ footer input{
 footer button{
   width: 15%;
 }
+
+.icon-box ul {
+
+        list-style: none;
+        display: flex;
+        justify-content: center;
+}
+.icon-box li {
+
+          background-color:white;
+          margin: 2px;
+          border-radius: 50%;
+          padding: 0 2px;
+
+}
+ .icon-box a {
+            color: black;
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            height: 30px;
+            width: 30px;
+          }
+.icon-box a:hover &:active {
+              text-decoration: none;
+            }
+          }
