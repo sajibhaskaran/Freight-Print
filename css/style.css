@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+@import url('fonts.googleapis.com/css?family=Open+Sans:400,300,700');
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -8,7 +8,11 @@
 
 
 body{
-  font-family: Roboto,'Helvetica Neue',Arial,sans-serif;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: #001A33;
+    webkit-tap-highlight-color: #222;
+    top:0;
+  //font-family: Roboto,'Helvetica Neue',Arial,sans-serif;
   color:#090127;
 }
 
@@ -23,6 +27,7 @@ body{
 .bg-clr{
   display: none;
 }
+
 }
 
 .icons{
@@ -33,13 +38,16 @@ header{
   float:;
 }
 .logo {
-  margin: 1.3em 1em 0 3em;
+  margin: 1.3em 0 0 2em;
   float: left;
+  //border: 2px solid black;
 }
 .contact{
   float: right;
   width:100%;
+  border: 1px solid red;
 }
+
 .bg-clr-lgt {
   background-color: #697c9b;
   position: sticky;
@@ -69,27 +77,59 @@ header{
   padding-bottom: 15px;
   border-bottom: 2px solid white;
 }
+.logo img{
+  max-width: 100%;
+  height: auto;
+
+}
 
 .header-box{
-  width: 30%;
+  width: 100%;
   height: 100px;
-  margin-top:.5em;
+  margin-top:;
   float: right;
+  //border: 1px solid black;
 }
 .header-box-icon{
-  width: 40px;
-  height:60px;
+  width: %;
+  height:100%;
   padding-left: 5px;
-  padding-top: 25px;
-  float: left;
+  padding-top: 15px;
+  float: right;
+//border: 1px solid black;
+}
+.header-box i{
+  float:;
+  //border: 1px solid black;
+  padding:15px 5px 0 0;
+}
+
+@media screen and (max-width: 299px) {
+    .glyphicon {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 799px) {
+    .glyphicon {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .glyphicon {
+        font-size: 2.5vw;
+    }
 }
 .header-box-text{
-  margin-left: 0;
-  padding-top: 1.1em;
-  font-size: 1.1vw;
+  margin-right: 2vw;
+  padding-top: 5px;
+  font-size: 1.3vw;
+  float: right;
+  //border: 1px solid black;
 }
 .main-section{
-  background-image:url("../images/home1bg.jpg");
+  background:url("../images/home1bg.jpg") no-repeat center center fixed;
   background-size: cover;
   width: 100%;
   height: 700px;
