@@ -75,7 +75,7 @@ header{
   color: #fff;
   text-decoration:none;
   padding-bottom: 15px;
-  border-bottom: 2px solid white;
+  border-bottom: 4px solid white;
 }
 .logo img{
   max-width: 100%;
@@ -143,7 +143,7 @@ header{
 @media (max-width: 47.9em) {
 .title-box{
   text-align: center;
-  padding-top: 5vh;
+  padding-top: 7vh;
 }
 .title-box h1{
   font-size: 4vh;
@@ -154,7 +154,7 @@ header{
 }
 }
 .title-text{
-  color: silver;
+  color: #fff;
   font-size: 4vw;
   font-weight: bolder;
 }
@@ -170,10 +170,14 @@ header{
 .section-bottom-clear{
   width: 70%;
   height:20vh;
+  border: 1px solid red;
 }
 @media (max-width: 47.9em) {
 .section-bottom-clear{
   display: none;
+}
+.section-bottom-box input, button{
+  margin-right: 0;
 }
 }
 
@@ -181,16 +185,16 @@ header{
   width: 70vw;
   height: auto;
   margin: auto;
-  margin-top: 2vh;
+  margin-top: 4vh;
   background-color: white;
   border-radius: 10px;
-  padding: 1em 0 0 2em;
+  padding: 10px;
   font-size: 2vw;
 }
 .section-bottom-box input{
   width: 95%;
   height: 6vh;
-  margin-right: 10px;
+  margin: 5px;
   margin-bottom: 15px;
   background-color: #697c9b;
   border: none;
@@ -200,8 +204,8 @@ header{
 .section-bottom-box button {
   width: 95%;
   height: 6vh;
-  margin-right: 20px;
-  margin-bottom: 5px;
+  margin: 5px;
+
   background-color: #4d5866;
   border: none;
   outline: none;
@@ -291,7 +295,7 @@ header{
   padding-top: 4em;
 }
 .services-text{
-  font-size: 1.8vh;
+  font-size: 16px;
   height: 50%;
 }
 .services-icon-box{
@@ -299,9 +303,10 @@ header{
   height: 50%;
   width: 20%;
   padding: 0 1em 0 1em;
+  border: 1px solid red;
 }
 .fa{
-  font-size: 3vm;
+  font-size: ;
 }
 
 #quote{
