@@ -40,12 +40,12 @@ header{
 .logo {
   margin: 1.3em 0 0 2em;
   float: left;
-  //border: 2px solid black;
+
 }
 .contact{
   float: right;
   width:100%;
-  border: 1px solid red;
+
 }
 
 .bg-clr-lgt {
@@ -70,13 +70,23 @@ header{
 }
 .menu-item:hover,
 .menu-item:focus{
-  //font-size: 1.4vw;
-  //border: 1px solid #fff;
+
   color: #fff;
   text-decoration:none;
   padding-bottom: 15px;
   border-bottom: 4px solid white;
 }
+@media (max-width: 47.9em) {
+  .menu-item:hover,
+  .menu-item:focus{
+
+    color: #fff;
+    text-decoration:none;
+    padding-bottom: 1px;
+    border-bottom: 2px solid white;
+  }
+}
+
 .logo img{
   max-width: 100%;
   height: auto;
@@ -88,7 +98,7 @@ header{
   height: 100px;
   margin-top:;
   float: right;
-  //border: 1px solid black;
+
 }
 .header-box-icon{
   width: %;
@@ -96,11 +106,9 @@ header{
   padding-left: 5px;
   padding-top: 15px;
   float: right;
-//border: 1px solid black;
+
 }
 .header-box i{
-  float:;
-  //border: 1px solid black;
   padding:15px 5px 0 0;
 }
 
@@ -126,7 +134,7 @@ header{
   padding-top: 5px;
   font-size: 1.3vw;
   float: right;
-  //border: 1px solid black;
+
 }
 .main-section{
   background:url("../images/home1bg.jpg") no-repeat center center fixed;
@@ -170,7 +178,7 @@ header{
 .section-bottom-clear{
   width: 70%;
   height:20vh;
-  border: 1px solid red;
+
 }
 @media (max-width: 47.9em) {
 .section-bottom-clear{
@@ -194,7 +202,7 @@ header{
 .section-bottom-box input{
   width: 95%;
   height: 6vh;
-  margin: 5px;
+  margin: 8px;
   margin-bottom: 15px;
   background-color: #697c9b;
   border: none;
@@ -204,7 +212,7 @@ header{
 .section-bottom-box button {
   width: 95%;
   height: 6vh;
-  margin: 5px;
+  margin: 8px;
 
   background-color: #4d5866;
   border: none;
@@ -258,7 +266,6 @@ header{
   margin: auto;
   padding:3em 0 1em 0;
   font-size: 13px;
-  //border: 1px solid red;
   color: #fff;
 }
 @media (max-width: 47.9em) {
@@ -280,7 +287,7 @@ header{
 
 
 #services{
-  //border: 1px solid green;
+
   height: auto;
 }
 #services h1{
@@ -303,23 +310,22 @@ header{
   height: 50%;
   width: 20%;
   padding: 0 1em 0 1em;
-  border: 1px solid red;
+
 }
-.fa{
-  font-size: ;
-}
+
 
 #quote{
   background-image:url("../images/requestbg1.jpg");
   background-repeat: no-repeat;
-  height: auto;
+  background-size:auto;
 }
 .request-box{
   width: 60vw;
   height: auto;;
   margin: auto;
+  margin-bottom: 75px;
   background-color: white;
-  padding: 1em 1em 1em 1em;
+  padding: 1em;
 
 }
 .request-box input{
@@ -399,9 +405,7 @@ header{
   width: 95%;
   height: auto;
   margin:auto;
-  //margin: -1em 0 1em 0;
   padding: 2em 1em 1em 1em;
-  //border: 1px solid white;
   background-color: #44548e;
 
 }
@@ -426,7 +430,7 @@ footer{
   padding: 10em 1em 2em 1em;
   color: #fff;
   height: auto;
-  //border: 1px solid red;
+  
 }
 .footer-text h1{
   text-align: center;
