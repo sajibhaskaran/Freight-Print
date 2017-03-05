@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -13,7 +13,7 @@ body{
     webkit-tap-highlight-color: #222;
     top:0;
   //font-family: Roboto,'Helvetica Neue',Arial,sans-serif;
-  color:#090127;
+  //color:#090127;
 }
 
 
@@ -51,7 +51,7 @@ header{
 .bg-clr-lgt {
   background-color: #697c9b;
   position: sticky;
-  color: white;
+  color: #fff;
 }
 .sticky.is-sticky {
   position: fixed;
@@ -132,6 +132,7 @@ header{
 .header-box-text{
   margin-right: 2vw;
   padding-top: 5px;
+
   font-size: 1.3vw;
   float: right;
 
@@ -167,6 +168,7 @@ header{
   font-weight: bolder;
 }
 .title-box p{
+  font-size: 20px;
   color: white;
 }
 .section-box{
@@ -177,7 +179,7 @@ header{
 
 .section-bottom-clear{
   width: 70%;
-  height:20vh;
+  height:18vh;
 
 }
 @media (max-width: 47.9em) {
@@ -295,6 +297,9 @@ header{
   font-size: 3em;
   font-weight: bold;
 }
+#services p{
+  font-size: 20px;
+}
 #services i{
   float: left;
 }
@@ -302,7 +307,7 @@ header{
   padding-top: 4em;
 }
 .services-text{
-  font-size: 16px;
+  font-size: 20px;
   height: 50%;
 }
 .services-icon-box{
@@ -328,6 +333,9 @@ header{
   padding: 1em;
 
 }
+.request-box p{
+  font-size: 20px;
+}
 .request-box input{
   margin-bottom: 1em;
   width: 95%;
@@ -345,14 +353,16 @@ header{
 }
 .request-box button{
   margin-top: 1em;
-  width: 43%;
+  min-width: 43%;
+  width: auto;
   height: 42px;
   margin: auto;
   background-color: #44548e;
   border: none;
   color: white;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 22px;
+  //font-size: 2vw;
 }
 .request-strip{
   background-color: #4d5866;
@@ -497,12 +507,12 @@ footer button{
 }
 
 .modal-content{
-  background-color: #14141E; //#697c9b;
+  background-color: #4d5866; //#14141E;#697c9b;
   color: #fff;
 }
 
 .form-control, .btn-success{
-  background-color: #1E1E47;
+  background-color: #697c9b;
   outline: none;
   border-radius: 0;
 }
