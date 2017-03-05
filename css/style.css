@@ -430,7 +430,7 @@ footer{
   padding: 10em 1em 2em 1em;
   color: #fff;
   height: auto;
-  
+
 }
 .footer-text h1{
   text-align: center;
@@ -490,3 +490,22 @@ footer button{
               text-decoration: none;
             }
           }
+
+
+#custom-modal{
+  background-color: silver;
+}
+
+.modal-content{
+  background-color: #14141E; //#697c9b;
+  color: #fff;
+}
+
+.form-control, .btn-success{
+  background-color: #1E1E47;
+  outline: none;
+  border-radius: 0;
+}
+.btn-success{
+
+}

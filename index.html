@@ -112,8 +112,9 @@
         </li>
       </ul>
       <div class=" my-2 my-lg-0">
-        <a class="menu-item" href="#">LOGIN</a>
-        <a class="menu-item" href="#">SIGN UP</a>
+
+        <a class="menu-item" data-toggle="modal" title="Click to Login" data-target=".login-modal">LOGIN</a>
+        <a class="menu-item" data-toggle="modal" title="Click to Login" data-target=".signup-modal">SIGN UP</a>
       </div>
     </div>
   </nav>
@@ -410,6 +411,72 @@
       </div>
     </div>
   </footer>
+</div>
+
+<div class="modal fade login-modal" data-target ="custom-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                <span class="sr-only">Close</span>
+                </button>
+                LOGIN
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="alert alert-danger user-login" style="display: none;"></div>
+                    <form id="user" enctype="application/x-www-form-urlencoded" class="form-vertical" action="" method="post">
+<div class="form-group">
+<input type="text" name="username" id="username" value="" placeholder="Your Email" class="form-control" /></div>
+<div class="form-group">
+<input type="password" name="password" id="password" value="" placeholder="Your Password" class="form-control" /></div>
+<div class="form-group"><div class="checkbox"><label>
+<input type="hidden" name="remember" value="0" /><input type="checkbox" name="remember" id="remember" value="1" />
+Remember me</label></div></div>
+<div class="form-group">
+<button name="signin" id="signin" type="button" class="btn btn btn-success btn-block">Sign In</button></div></form>                        <p> Forgot Password? <span class="paint-login" onclick="window.location.href='/dashboard/validate'">Reset</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade signup-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+                <span class="sr-only">Close</span>
+                </button>
+               FREE SIGN UP
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="alert newuser-message" style="display: none;"></div>
+                    <form id="newuser" enctype="application/x-www-form-urlencoded" class="form-vertical" action="" method="post">
+<div class="form-group">
+<input type="text" name="email" id="email" value="" placeholder="Your Email" class="form-control" /></div>
+<div class="form-group">
+<input type="password" name="passwordnew" id="passwordnew" value="" placeholder="Type a Password" class="form-control" /></div>
+<div class="form-group">
+<input type="password" name="repassword" id="repassword" value="" placeholder="Re-type Password" class="form-control" /></div>
+<div class="form-group">
+<input type="text" name="firstname" id="firstname" value="" placeholder="Your First Name" class="form-control" /></div>
+<div class="form-group">
+<input type="text" name="lastname" id="lastname" value="" placeholder="Your Last Name" class="form-control" /></div>
+<div class="form-group">
+<input type="text" name="phone" id="phone" value="" placeholder="Your Phone" class="form-control" /></div>
+<div class="form-group">
+<input type="text" name="org_name" id="org_name" value="" placeholder="Company Name" class="form-control" /></div>
+<div class="form-group">
+<input type="text" name="code" id="code" value="" placeholder="Login code/Call us to get one" class="form-control" /></div>
+<div class="form-group">
+<button name="register" id="register" type="button" class="btn btn btn-md btn-block">Register</button></div></form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
