@@ -12,10 +12,17 @@ body{
     color: #001A33;
     webkit-tap-highlight-color: #222;
     top:0;
+    left:0;
+    width:100%;
   //font-family: Roboto,'Helvetica Neue',Arial,sans-serif;
   //color:#090127;
 }
-
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
 
 
 .bg-clr{
@@ -133,7 +140,7 @@ header{
   margin-right: 2vw;
   padding-top: 5px;
 
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   float: right;
 
 }
@@ -142,8 +149,8 @@ header{
   background-size: cover;
   width: 100%;
   height: 700px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left:;
+  padding-right:;
 }
 
 .title-box{
@@ -151,12 +158,10 @@ header{
 }
 @media (max-width: 47.9em) {
 .title-box{
-  text-align: center;
+  //text-align: center;
   padding-top: 7vh;
 }
-.title-box h1{
-  font-size: 4vh;
-}
+
 .section-box{
   margin: auto;
   margin-bottom: 15px;
@@ -164,12 +169,20 @@ header{
 }
 .title-text{
   color: #fff;
-  font-size: 4vw;
+  font-size: 5vh;
   font-weight: bolder;
 }
 .title-box p{
   font-size: 20px;
   color: white;
+}
+@media (max-width: 47.9em) {
+.title-box{
+  font-size: 4vh;
+}
+.title-box p{
+  font-size: 3vh;
+}
 }
 .section-box{
   width: 175px;
@@ -234,12 +247,16 @@ header{
   width: 100%;
   height: 100px;
 }
+#about{
+  padding: 5px;
+}
 #about h1{
-  font-size: 4vw;
+  font-size: 5vh;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 #about p{
-  font-size: 1.8vw;
+  font-size: 2.5vh;
 }
 @media (max-width: 47.9em) {
 #about h1{
@@ -251,14 +268,14 @@ header{
 }
 .simg{
   position: absolute;
-  max-width: 100%;
-  height: auto;
+  max-width: 80%;
+  height:;
   z-index: 1;
 }
 .about-bottom{
   height: auto;
   min-height: 270px;
-  margin-top: 5vh;
+  margin-top: 8vh;
   background-color: #44548e;
 }
 .about-bottom-box{
@@ -267,7 +284,7 @@ header{
   float: left;
   margin: auto;
   padding:3em 0 1em 0;
-  font-size: 13px;
+  font-size: 10px;
   color: #fff;
 }
 @media (max-width: 47.9em) {
@@ -291,6 +308,7 @@ header{
 #services{
 
   height: auto;
+  padding: 5px
 }
 #services h1{
   margin-top: 1em;
@@ -298,23 +316,27 @@ header{
   font-weight: bold;
 }
 #services p{
-  font-size: 20px;
+  font-size: 15px;
 }
 #services i{
   float: left;
 }
 .services-box{
-  padding-top: 4em;
+  padding: 4em 0 2em 0;
+
 }
 .services-text{
-  font-size: 20px;
+  font-size: 10px;
   height: 50%;
+  padding: 3px;
+
 }
 .services-icon-box{
   float: left;
   height: 50%;
-  width: 20%;
-  padding: 0 1em 0 1em;
+  width: auto;
+  min-width: 70px;
+  padding-left: 2px;
 
 }
 
@@ -326,15 +348,18 @@ header{
 }
 .request-box{
   width: 60vw;
-  height: auto;;
+  height: auto;
   margin: auto;
   margin-bottom: 75px;
   background-color: white;
   padding: 1em;
 
 }
+.request-box h1{
+  font-size: 25px;
+}
 .request-box p{
-  font-size: 20px;
+  font-size: 15px;
 }
 .request-box input{
   margin-bottom: 1em;
@@ -361,7 +386,7 @@ header{
   border: none;
   color: white;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   //font-size: 2vw;
 }
 .request-strip{
@@ -394,7 +419,7 @@ header{
   background-image: url("../images/shutterstock_147692165-tinted.jpg");
 }
 #news h1{
-  font-size: 4vw;
+  font-size: 30px;;
   font-weight: 500;
   margin-bottom: 4vh;
 }
@@ -417,6 +442,7 @@ header{
   margin:auto;
   padding: 2em 1em 1em 1em;
   background-color: #44548e;
+  font-size: 15px;
 
 }
 
@@ -444,7 +470,11 @@ footer{
 }
 .footer-text h1{
   text-align: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.footer-text p{
+  font-size: 15px;
 }
 .round{
   width: 30px;
@@ -500,22 +530,3 @@ footer button{
               text-decoration: none;
             }
           }
-
-
-#custom-modal{
-  background-color: silver;
-}
-
-.modal-content{
-  background-color: #4d5866; //#14141E;#697c9b;
-  color: #fff;
-}
-
-.form-control, .btn-success{
-  background-color: #697c9b;
-  outline: none;
-  border-radius: 0;
-}
-.btn-success{
-
-}
