@@ -187,7 +187,7 @@ header{
 .section-box{
   width: 175px;
   height: 45px;
-  background-color: white;
+
 }
 
 .section-bottom-clear{
@@ -506,7 +506,8 @@ footer button{
 
 .icon-box ul {
 
-        list-style: none;
+        list-style:none
+        ;
         display: flex;
         justify-content: center;
 }
